@@ -1,5 +1,5 @@
 require "ebs_name_sync/version"
 
-module EbsNameSync
+class EbsNameSync
   # Your code goes here...
 end
