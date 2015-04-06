@@ -8,4 +8,8 @@ class TestEbsNameSync < Minitest::Test
   def test_that_it_is_a_class
   	assert_equal EbsNameSync.class, Class
   end
+
+  def test_that_it_has_fog_required
+    assert defined?(Fog), "It should require Fog"
+  end
 end
